@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Options.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #080808;}
+.s1 { color: #008080; font-weight: bold;}
+.s2 { color: #0037a6;}
+.s3 { color: #0033b3;}
+.s4 { color: #8c8c8c; font-style: italic;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Options.py</font>
+</center></td></tr></table>
+<pre><span class="s0">print(</span><span class="s1">&quot;Pls choose a number representing your element:&quot;</span>
+      <span class="s1">&quot;</span><span class="s2">\n</span><span class="s1">1.Fire</span><span class="s2">\n</span><span class="s1">2.Water</span><span class="s2">\n</span><span class="s1">3.Air</span><span class="s2">\n</span><span class="s1">4.Earth</span><span class="s2">\n</span><span class="s1">0.Quit Game&quot;</span><span class="s0">)</span>
+
+<span class="s0">elements=[</span><span class="s1">&quot;1&quot;</span><span class="s0">,</span><span class="s1">&quot;2&quot;</span><span class="s0">,</span><span class="s1">&quot;3&quot;</span><span class="s0">,</span><span class="s1">&quot;4&quot;</span><span class="s0">,</span><span class="s1">&quot;0&quot;</span><span class="s0">]</span>
+<span class="s0">choice=input()</span>
+
+<span class="s3">while </span><span class="s0">choice != </span><span class="s1">&quot;0&quot;</span><span class="s0">:</span>
+    <span class="s3">if </span><span class="s0">choice </span><span class="s3">in </span><span class="s0">elements:</span>
+        <span class="s0">print(</span><span class="s1">&quot;Your choice of {} is invalid, pls choose another&quot;</span><span class="s0">.format(choice))</span>
+    <span class="s3">else</span><span class="s0">:</span>
+        <span class="s0">print(</span><span class="s1">&quot;Pls choose a number representing your element:&quot;</span>
+              <span class="s1">&quot;</span><span class="s2">\n</span><span class="s1">1.Fire</span><span class="s2">\n</span><span class="s1">2.Water</span><span class="s2">\n</span><span class="s1">3.Air</span><span class="s2">\n</span><span class="s1">4.Earth</span><span class="s2">\n</span><span class="s1">0.Quit Game&quot;</span><span class="s0">)</span>
+    <span class="s0">choice=input()</span>
+
+<span class="s3">else</span><span class="s0">:</span>
+    <span class="s0">print(</span><span class="s1">&quot;Congrats you are now the master of all elements MWAHAHA!&quot;</span><span class="s0">)</span>
+
+
+<span class="s4"># print(&quot;Please choose your option from the list below:&quot;)</span>
+<span class="s4"># print(&quot;1:\tLearn Python&quot;)</span>
+<span class="s4"># print(&quot;2:\tLearn Java&quot;)</span>
+<span class="s4"># print(&quot;3:\tGo swimming&quot;)</span>
+<span class="s4"># print(&quot;4:\tHave dinner&quot;)</span>
+<span class="s4"># print(&quot;5:\tGo to bed&quot;)</span>
+<span class="s4"># print(&quot;0:\tExit&quot;)</span>
+<span class="s4"># choice = &quot;-&quot;</span>
+<span class="s4">#</span>
+<span class="s4"># while True:</span>
+<span class="s4">#     choice = input()</span>
+<span class="s4">#     if choice == &quot;0&quot;:</span>
+<span class="s4">#         break</span>
+<span class="s4">#     elif choice in &quot;12345&quot;:</span>
+<span class="s4">#         print(&quot;You chose {}&quot;.format(choice))</span>
+<span class="s4">#     else:</span>
+<span class="s4">#         print(&quot;Please choose your option from the list below:&quot;)</span>
+<span class="s4">#         print(&quot;1:\tLearn Python&quot;)</span>
+<span class="s4">#         print(&quot;2:\tLearn Java&quot;)</span>
+<span class="s4">#         print(&quot;3:\tGo swimming&quot;)</span>
+<span class="s4">#         print(&quot;4:\tHave dinner&quot;)</span>
+<span class="s4">#         print(&quot;5:\tGo to bed&quot;)</span>
+<span class="s4">#         print(&quot;0:\tExit&quot;)</span>
+<span class="s4">#</span>
+<span class="s4">#     choice = input()</span>
+</pre>
+</body>
+</html>
